@@ -1,0 +1,158 @@
+.logo img
+{
+    width: 70px;
+    height: 40px;
+}
+*
+{
+    font-size: 20px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0, 0, 0, 0.779);
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+
+}
+ul 
+{
+    display: flex;
+margin-left: 80px;
+}
+li 
+{
+    margin-left: 30px;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease-in;
+}
+a:hover
+{
+    color:goldenrod;
+}
+/* //css for container */
+
+
+.container
+{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    background-image: url("/images/bg.jpg");
+    background-position: center center;
+    padding: 20px;
+
+}
+#heading
+{
+    color: gold;
+    position:relative;
+    top:-30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+*
+{
+    cursor: pointer;
+}
+.songs
+{
+    
+    display: flex;
+    
+    align-items:center;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 45px;
+background-color: whitesmoke;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+body
+{
+    background-color: wheat;
+}
+*
+{
+    scroll-behavior: smooth;
+
+}
+.songs:hover
+{
+    background-color: antiquewhite;
+    color:crimson;
+}
+.songitems img
+{
+    width: 70px;
+    height: 30px;
+
+}
+.bottom
+{
+    background-color:black;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#progressbar
+{
+    width: 900px;
+}
+.iconsplay
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.iconsplay i 
+{
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+i:hover
+{
+    color: gold;
+    
+}
+.soundicon img
+{
+    width: 90px;
+}
+.songnameinplayingbar{
+
+    color: goldenrod
+}
+.soundicon
+{
+    display: none;
+}
+.soundicon.active
+{
+    display: contents;
+    position: relative;
+    left: 300px;
+    margin-left: 300px;
+}
+.soundicon
+{
+    position: relative;
+    left: 300px;
+}
+.songitems
+{
+    margin-top: 20px;
+}

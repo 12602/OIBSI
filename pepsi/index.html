@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi</title>
+</head>
+
+<body>
+    <section class="section">
+        <header>
+            <a href="logo"> <img src="/images/logo.png" alt="">
+            </a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">NewsLeter</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textbox">
+                <h2>That's What <br> <span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, corrupti maiores tenetur in
+                    laboriosam assumenda neque tempore maxime nobis iste nesciunt? Eius deserunt eos voluptates eveniet
+                    ratione, sint officia id voluptate ipsam aspernatur beatae repellendus quisquam veritatis est
+                    consequuntur aliquid.</p>
+                    <a href="#">View All Products</a>
+            </div>
+            <div class="imgbox">
+                <img src="/images/pepsi001.png" alt="" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+           <li> <img src="/images/pepsi001.png" onclick="imgslider('/images/pepsi001.png')" alt="" ></li>
+            <li><img src="/images/pepsi002.png"   onclick="imgslider('/images/pepsi002.png')" alt="" ></li>
+            <li><img src="/images/pepsi003.png"   onclick="imgslider('/images/pepsi003.png')" alt="" ></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function  imgslider(anything) {
+            document.querySelector('.pepsi').src=anything;
+            
+        }
+    </script>
+
+</body>
+
+</html>

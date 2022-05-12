@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Baloo+Tamma+2:wght@800&family=Bebas+Neue&family=Cinzel:wght@500&family=Pacifico&family=Paytone+One&family=Shadows+Into+Light&family=Vollkorn:ital,wght@1,500&display=swap');
+nav
+{
+    display: flex;
+    align-items: center;
+  background-color:black;
+  justify-content: space-around;
+  color: white;
+  font-size: 30px;
+  height: 80px;
+  
+}
+body
+{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+nav img
+{
+    width: 100px;
+    height: 70px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+margin-left: 20px;
+}
+#range
+{
+    scroll-behavior: smooth;
+    cursor: pointer;
+    height: 10px;
+}
+ul
+{
+    position: relative;
+    left: -830px;
+}
+.logo img
+{
+margin-left:-300px;  
+margin-top: 10px;  
+height: 70px;
+}
+a:hover
+{
+    color: yellow;
+}
+.songitem:hover
+{
+    background-color: whitesmoke;
+    color:red;
+}
+.songName
+{
+    cursor: none;
+}
+.container
+{
+    color: white;
+    height: 55vh;
+    background-color:yellow;
+    padding: 20px;
+    position: relative;
+  width: 90vw;
+  display: flex;
+ 
+justify-items: center;
+background-image: url("/images/bg.jpg");
+background-position: center center;
+margin: 23px auto;
+}
+span
+{
+    cursor: pointer;
+}
+.songitem
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height: 40px;
+    background-color: white;
+    width: 140%;
+    color: black;
+}@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Baloo+Tamma+2:wght@800&family=Bebas+Neue&family=Cinzel:wght@500&family=Pacifico&family=Paytone+One&family=Shadows+Into+Light&family=Vollkorn:ital,wght@1,500&display=swap');
+.songlistplay
+{
+    margin:23px 23px;
+    top:2px;
+    display: flex;
+    align-items: center;
+}
+.songitem img
+{
+    width: 100px;
+    height: 20px;
+}
+body
+{
+    background-color: wheat;
+}
+.container h1
+{
+    position: absolute;
+
+    top:0;
+    left: 30px;
+}
+.bottom
+{
+    bottom: 0px;
+    position: absolute;
+background-color: black;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+height: 15vh;
+}
+.songitem img
+{
+    width: 30px;
+}
+.songitem
+{
+display: flex;
+flex-direction: row;
+background-color: aquamarine;
+align-items: center;
+justify-items: center;
+justify-content: space-around;    
+}
+
+.bottom .icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i
+{
+    cursor: pointer;
+}
+.songitemcontainer
+{
+ margin-top: 54px;
+}
+#range
+{
+    width: 1000px;
+}
+.songlistplay i 
+{
+    cursor: pointer;
+}
+.songinfo img
+{
+    width: 100px;
+    height: 30px;
+}
+.bottom img
+{
+    width: 100px;
+    height: 30px;
+    
+}
+.songinfo
+{
+    position: absolute;
+    left: 12vw;
+    font-size: 20px;
+}
+.songinfo img
+{
+    opacity: 0;
+    transition: 0.1s ease-in;
+}

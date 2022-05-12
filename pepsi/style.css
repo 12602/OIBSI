@@ -1,0 +1,146 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    position: relative;
+    
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    max-width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: 0.5s;
+    background-color: rgba(0, 0, 255, 0.603);
+}
+header
+{
+    position: absolute;
+    top:0;
+    left: 0;
+   width: 90%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    position: relative;
+    max-width: 50px;
+}
+ ul li
+{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+ a
+{
+    text-decoration: none;
+    font-weight: 600px;
+    margin-left: 40px;
+    color: white;
+    
+    
+}
+a img
+{
+    width: 80px;
+}
+a:hover
+{
+    color: orange;
+    transition: 0.5s ease;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textbox
+{
+    position: relative;
+    max-width: 600px;
+    
+}
+.textbox h2
+{
+    color: white;
+    line-height: 2em;
+    font-size: 3rem;
+}
+h2 span
+{
+    font-size: 3rem;
+    font-size: 3em;
+
+}
+.textbox p
+{
+    color: white;
+}
+.textbox a
+{
+    display: inline-block;
+    margin-top: 20px;
+   padding: 10px 20px;
+   color: #111;
+   background-color: white;
+   border-radius: 40px;
+   text-transform: uppercase;
+ 
+}
+.content .imgbox
+{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+.imgbox img
+{
+    max-width: 250px;
+}
+
+
+.thumb
+{
+    position: absolute;
+    left: 50%;
+    margin-bottom: -420px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover
+{
+    transform: translateY(-20px);
+}
+.thumb li img
+{
+    max-width: 50px;
+}
+.textbox a:hover
+{
+    background-color: orange;
+    color: white;
+}

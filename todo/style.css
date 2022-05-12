@@ -1,0 +1,62 @@
+.container
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+li 
+{
+width: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center !important;
+    position: relative;
+    justify-content:  space-around !important;
+    background-color: orange !important;
+    color: white !important;
+    padding: 10px;
+
+}
+span
+{
+    position: absolute;
+    right: 10px;
+}
+li:hover
+{
+    background-color: rgba(255, 166, 0, 0.463) !important;
+    color: black !important;
+}
+.input
+{
+    position: relative;
+    top:-250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+}
+ input
+{
+    width: 300px !important;
+      position: relative;
+      left: 600px;    
+      height: 50px !important;
+      padding: 10px;
+      border: none;
+      border: 3px solid greenyellow;
+
+}
+.input1
+{
+top:200px !important;
+    position: absolute;
+    width: 300px;
+    
+}
+li 
+{cursor: pointer;}
